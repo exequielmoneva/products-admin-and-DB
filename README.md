@@ -7,7 +7,7 @@ docker-compose up
 ```
 
 # TO-DO
-- Solve problem of unique constraint at product_user table
+- Add seeded users for the user endpoint
 - Refactor
 - Get variables from .env file
 - run RabbitMQ from a localhost on Docker
