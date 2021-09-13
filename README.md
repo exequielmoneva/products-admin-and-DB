@@ -8,7 +8,6 @@ docker-compose up
 
 # TO-DO
 - Add seeded users for the user endpoint
-- Refactor
 - Get variables from .env file
 - run RabbitMQ from a localhost on Docker
 - Unit and integration tests over Dockerized code
