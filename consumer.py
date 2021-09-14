@@ -8,8 +8,7 @@ django.setup()
 
 from products.models import Product
 
-params = pika.URLParameters('amqps://rinseenq:iZkfHfgARAZ5YlARbX6yKDS0yYhxcn-X@beaver.rmq.cloudamqp.com/rinseenq')
-#   params = pika.URLParameters('localhost')
+params = pika.URLParameters('your_rabbitmq_url')
 
 connection = pika.BlockingConnection(params)
 
