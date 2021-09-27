@@ -2,7 +2,7 @@
 
 Admin module implementation for the Products microservice.
 
-##About
+## About
 This proof of concept of a microservice is based on the Event-Driven Architecture,
 connecting the [main module working on Flask](https://github.com/exequielmoneva/products-main) 
 with the admin module made on Django using RabbitMQ queues hosted on CloudAMQP.
